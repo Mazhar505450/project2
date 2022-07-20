@@ -1,0 +1,153 @@
+
+        /*--button (all section)--*/
+        .button{
+            background-color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 1px solid #fff;
+            transition-duration: 0.4s;
+        }
+        /*--button hover (all section)--*/
+        .button:hover{
+            background: none;
+            border: 1px solid #fff;
+            color:#fff;
+        }
+        /*--buttontwo (all section)--*/
+        .buttontwo{
+            background-color: #68a0f5;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 1px solid #68a0f5;
+            transition-duration: 0.4s;
+        }
+        /*--buttontwo hover (all section)--*/
+        .buttontwo:hover{
+            background: none;
+            border: 1px solid #fff;
+            color:#fff;
+        }
+        /*---hero section start---*/
+        #hero{
+            background-image: url(img/banner-bg.jpg);
+            margin-bottom: 120px;
+            background-size: cover;
+            
+        }
+        #hero h2{
+            font-weight: 700;
+            font-size: 3.25rem;
+        }
+        /*--hero section end--*/
+        
+        /*--about section start--*/
+        #about p{
+            color: gray;
+        }
+        #about h3{
+            font-size: 22px;
+            padding-bottom: 15px;
+            padding-top: 10px;
+        }
+        /*--about section end--*/
+
+        /*--service section start--*/
+        #service{
+            background-color: #f9f9ff;
+            margin-top: 150px;
+        }
+        #service h1{
+            padding: 0 50px 20px 50px;
+            text-align: center;
+        }
+        #service svg{
+            height: 25px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            color: rgb(130, 130, 235);
+        }
+        #service p{
+            color: gray;
+        }
+        /*--service section end--*/
+
+        /*--contact section start--*/
+        #contact{
+            background-color: #e84f87;
+            padding: 50px 0;
+            margin: 50px 0;
+        }
+        
+        #contact h2{
+            font-weight: bold;
+            font-size: 2.5rem;
+            padding-bottom: 25px;
+        }
+        .form-control{
+            border-radius: 0;
+            background: none;
+            
+        }
+        /*--contact section end--*/
+
+        /*--feedback section start--*/
+       
+        #feedback svg{
+            color: #e84f87;
+            border: 1px solid rgb(216, 215, 215);
+            padding: 20px;
+            height: 80px;
+            width:80px;
+        }
+        #feedback h1{
+            margin-top: 100px;
+        }
+        
+        /*--feedback section end--*/
+        
+       /*--last section--*/
+       #last{
+        background-color: black;
+       }
+       .text-decoration-none{
+        color: rgb(136, 136, 136);
+        margin-bottom: 12px;
+       }
+       .text-decoration-none:hover{
+        color:#fff;
+       }
+       #last p{
+        color:rgb(136, 136, 136);
+       }
+       #last{
+        padding: 70px 0;
+       }
+       footer{
+        color: gray;
+        background-color: black;
+       }
+
+
+
+        /*---RESPONSIVE-(max-width: 576px)--*/
+        @media only screen and (max-width: 576px) {
+            /*---hero section---*/
+           #hero img{
+            height: 500px;
+            margin-left: 40px;
+           }
+           #hero h2{
+            font-size: 40px;
+           }
+
+           /*---feedback section---*/
+            #feedback img{
+                display:none;
+            }
+            #feedback svg{
+                height: 70px;
+                width:70px;
+            }
+            
+           
+        }
