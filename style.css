@@ -50,6 +50,11 @@
             padding-top: 10px;
         }
         /*--about section end--*/
+        
+        .accordion-button:not(.collapsed) {
+        color: #000000;
+        background-color: #fff;
+        }
 
         /*--service section start--*/
         #service{
